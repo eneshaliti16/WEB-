@@ -1,0 +1,37 @@
+/* ul{ 
+    list-style-type: none;
+    padding: 0;
+    border: 2px solid gray;
+}
+ul li{
+    padding: 8px 16px;
+    border-bottom: 1px solid gray ;
+} */
+
+ul{
+    border-left: 5px solid green;
+    background-color: #807d7d;
+    list-style-type: none;
+    padding: 15px 25px;
+    font-size: 20px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 1px solid #eee;
+    padding: 15px;
+}
+
+tbody tr:nth-child(ODD){
+    background-color: #60bdcd;
+}
+
+div{
+    overflow: scroll;
+    background-color: #b99696;
+    width: 200px;
+    height: 200px;
+}
