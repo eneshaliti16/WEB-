@@ -1,23 +1,23 @@
-article p{
+ article p{ 
     background-color: blue;
     color: white;
     padding: 20px;
-}
-article > p{
+ }
+/* article > p{
     background-color: red;
     color: white;
     padding: 20px;
-}
-article + p{
+} */
+ /* article + p{  
     background-color: orange;
     color: white;
     padding: 20px;
-}
-article ~ p{
+} */
+/* article ~ p{
     background-color: purple;
     color: white;
     padding: 20px;
-}
+} */
 input:out-of-range{
     border: 3px solid red;
 }
