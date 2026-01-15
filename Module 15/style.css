@@ -1,0 +1,113 @@
+/* #static{
+    position: static;
+    border: 3px solid black;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+}
+#relative{
+    position: relative;
+    border: 3px solid black;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    left: 20px;
+    top: 100px;
+}
+#fixed{
+    position: fixed;
+    border: 3px solid black;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    left: 20px;
+    top: 100px;
+}
+
+#parent{
+    position: relative;
+    border: 3px solid black;
+    width: 250px;
+    height: 250px;
+}
+
+#absolute{
+    position: relative;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    right: 0;
+    top: 70px;
+    color: white;
+}
+
+#sticky{
+    position: sticky;
+    top: 0;
+    background-color: aqua;
+    padding: 20px;
+    color: white;
+} */
+
+/* ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active){
+    background-color: #111;
+}
+
+.active{
+    background-color: #4CAF50;
+} */
+
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+.navbar a{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+.navbar, a:hover, .dropdown:hover .dropbtn{
+    background-color: #4CAF50;
+}
