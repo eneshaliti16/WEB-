@@ -1,0 +1,63 @@
+/* div.gallery{
+    margin: 5px;
+    border: 1px solid black;
+    float: left;
+    width: 180px;
+}
+
+div.gallery :hover{
+    border: 1px solid #777;
+}
+
+div.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+div.desc{
+    padding: 15px;
+    text-align: center;
+} */
+
+/* p[clas*='ds']{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+} */
+
+/* p[clas='ds']{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}  */
+
+/* p[class~='ds']{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}  */
+
+/* p[class^='ds']{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}  */
+
+/* p[clas|='ds']{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}  */
+
+/* p[class$='paragraph']{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}  */
+
+input[placeholder$="Name"]{
+    border: 2px solid red;
+}
+input[readonly]{
+    border: 2px solid green;
+}
