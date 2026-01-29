@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    background: #06206a;
+}
+
+.container div{
+    background-color: white;
+    margin: 20px;
+    padding: 35px;
+}
+
+.container div:nth-child(1){
+    order: 2;
+}
+.container div:nth-child(2){
+    order: 1;
+}
+.container div:nth-child(3){
+    order: 3;
+}
+.container div:nth-child(4){
+    order: 0;
+}
+
+.container2{
+    display: flex;
+    background: #06206a;
+    flex-direction: column-reverse;
+}
+
+.container2 div{
+    background-color: white;
+    margin: 20px;
+    padding: 35px;
+    font-size: 35px;
+}
+
+.container3{
+    display: flex;
+    background: #06206a;
+    flex-direction: row;
+}
+.container3 div{
+    background-color: white;
+    margin: 20px;
+    padding: 35px;
+    font-size: 35px;
+}
+.container3 div:nth-child(1){
+    flex-grow: 4;
+}
