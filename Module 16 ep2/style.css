@@ -1,0 +1,42 @@
+div.gallery{
+    margin: 5px;
+    border: 1px solid yellow;
+    float: left;
+    width: 180px;
+}
+
+div.gallery :hover{
+    border: 1px solid brown;
+}
+
+div.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+div.desc{
+    padding: 15px;
+    text-align: center;
+} 
+
+.sprite{
+    background: url("/image/ismo.jpg");
+    background-color: lightgray;
+}
+.engineers{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-position: -500px -500px;
+}
+
+.shadows{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-position: -500px -500px;
+}
+
+a[href="www.google.com"]{
+    color: blue;
+}
