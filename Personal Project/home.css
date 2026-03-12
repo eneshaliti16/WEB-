@@ -1,13 +1,19 @@
-body{
-font-family: Arial;
-margin:0;
-background:#e6f7ff;
+.hero{
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+    border-radius: 10px;
 }
 
 nav{
 background:#0077b6;
 padding:15px;
 text-align:center;
+border-radius: 10px;
 }
 
 nav a{
@@ -27,4 +33,30 @@ color:white;
 section{
 text-align:center;
 padding:40px;
+}
+
+.cards{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.cards{
+    background: light gray;
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+footer{
+    background:#0077b6;
+    color:white;
+    text-align:center;
+    padding:20px;
+    border-radius: 10px;
 }
