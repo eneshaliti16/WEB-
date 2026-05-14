@@ -17,3 +17,4 @@ $('#myDiv').click(function(){
 })
 .find('span')
 .attr('title','Hover over me');
+
