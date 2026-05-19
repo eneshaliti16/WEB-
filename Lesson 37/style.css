@@ -1,0 +1,13 @@
+#sort li{
+    list-style-type: none;
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+#sort li:hover{
+    background-color: white;
+    color: brown;
+    cursor: grab;
+}
